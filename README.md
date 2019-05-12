@@ -1,6 +1,6 @@
 # Guestlogix Take Home Test - Mobile
 
-# Characteristics
+# Tool and Language used
 
 This project was written in Swift 5 using XCode 10.2
 
