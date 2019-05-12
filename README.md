@@ -1,5 +1,34 @@
 # Guestlogix Take Home Test - Mobile
 
+# Characteristics
+
+This project was written in Swift 5 using XCode 10.2
+
+# Required dependencies:
+
+This project uses the Googlemap SDK to display a map and the route. As such it is necessary to integrate it using Cocoapods. To do so navigate to the project directory and execute :
+$pod install 
+in the command line to install this dependency. The project will not compile without this dependency. 
+
+# Usage: 
+
+To run the project open the workspace called "guesLogixChallenge.xcworkspace" in XCode and run in the simulator. 
+
+
+Search will be done in a breadth first search , starting from the first row,
+and each iteration of search will go through each entry, treating each entry as the temporary origin
+
+Once the destination has been found, Display it on google map.
+
+
+# Displaying routes
+
+- The routes are displayed on a Google Maps mapview, with all the airports along the path marked , and the paths drawn with blue lines.
+
+# Original instructions below. 
+
+------------------------------------------------------------------------
+
 At Guestlogix we feel that putting developers on the spot with advanced algorithmic puzzles doesn’t exactly highlight one’s true skillset. The intention of this assessment is to see how you approach and tackle a problem in the real world, not quivering in front of a whiteboard.
 
 ### What is the test?
